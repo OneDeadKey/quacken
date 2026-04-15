@@ -29,6 +29,14 @@
     svg {
       width: 100%;
     }
+    nav {
+      display: flex;
+    }
+    nav a {
+      flex: 1;
+      font-size: larger;
+      color: #4493f8;
+    }
 
     /* keyboard geometry (XXX magic numbers) */
     #left    { transform: translate(-12px, 45px); }
@@ -256,6 +264,11 @@
       </g>
     </g>
   </svg>
+
+  <nav>
+    <a href="../selenium">keymap</a>
+    <a href="https://github.com/Nuclear-Squid/zmk-keyboard-quacken/">firmware</a>
+  </nav>
 
   <script>// keyboard geometry -- could be hard-coded in the stylesheet
     const columns = [ "outer", "pinky", "ring", "middle", "index", "inner" ];

@@ -2,10 +2,23 @@
 
 Libre, ergonomic, *polymorphic*: a single PCB for many possible layouts.
 
-[3×6, 3×5, hummingbird, and everything in between](https://html-preview.github.io/?url=https%3A%2F%2Fgithub.com%2FOneDeadKey%2FQuacken%2Fblob%2Fmain%2Findex.html).
+[3×6, 3×5, hummingbird, and everything in between](https://onedeadkey.github.io/quacken/).
 
 ![Quacken Flex, unibody Raven, 42 keys](quacken_raven.jpg)
 ![Quacken Flex, split Finch, 32 keys](quacken_finch.jpg)
+
+## Project
+
+This is just the public web page of the project, which is mostly
+[Nuclear-Squid]’s work:
+
+- [hardware] (KiCad and FreeCAD sources)
+- [ZMK firmware] implementing the [Selenium] keymap
+
+[Selenium]:      https://onedeadkey.github.io/selenium
+[hardware]:      https://github.com/Nuclear-Squid/quacken
+[ZMK firmware]:  https://github.com/Nuclear-Squid/zmk-keyboard-quacken
+[Nuclear-Squid]: https://github.com/Nuclear-Squid
 
 ## Roadmap
 
