@@ -90,9 +90,9 @@ a[href]:hover {
 **/
 
 /* keyboard geometry (XXX magic numbers) */
-#left    { transform: translate(-12px, 45px); }
-#right   { transform: translate(908px, 45px); }
-#outline { transform: translate(478px, 191px) scale(3.338, -3.338); }
+#left  { transform: translate(-12px, 45px); }
+#right { transform: translate(908px, 45px); }
+#board { transform: translate(478px, 191px) scale(3.338, -3.338); }
 
 #left  .matrix { transform-origin:  0px   56px; }
 #left  .thumb  { transform-origin: -14px -62px; }
@@ -115,18 +115,11 @@ text {
 }
 #board use,
 #board path {
-  fill:   #7889a2;
-  stroke: #7889a280;
-  fill:   #78a289;
-  stroke: #78a28980;
   fill:   rgba(130, 156, 175, 0.60);
   stroke: rgba(130, 156, 175, 0.20);
   stroke-width: 1.0px;
   stroke-linecap: round;
   stroke-linejoin: round;
-}
-@media (prefers-color-scheme: dark) {
-  /* TODO */
 }
 
 .col1 rect,
