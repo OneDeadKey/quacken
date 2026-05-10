@@ -68,6 +68,8 @@ const birds = {
   finch:       [ ".col1", ".col5m", ".col5 .bottom", ".col6", ".col6m",       ], // pinson
   swallow:     [ ".col1", ".col5", ".col6m", ".col6 .top", ".col6 .bottom",   ], // hirondelle
   kingfisher:  [ ".col1", ".col5", ".col6m", ".col6",                         ], // martin-pecheur
+  wallcreeper: [ ".col1m", ".col5",  ".col6", ".col6m",                       ], // tichodrome
+  bluejay:     [ ".col1m", ".col5m", ".col5 .bottom", ".col6", ".col6m",      ], // geai bleu
   // classic", [ "36-42 keyx
   hoopoe:      [ ".col1m", ".col5m", ".col6", ".col6m",      ], // huppe
   sparrowhawk: [ ".col1m", ".col5m", ".col6", ".col6m .top", ], // epervier
