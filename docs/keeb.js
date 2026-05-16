@@ -105,4 +105,3 @@ document.querySelectorAll(".thumb .key").forEach(key => {
   `;
 });
 document.querySelector("select").selectedIndex = 1;
-document.querySelector("select").focus();
