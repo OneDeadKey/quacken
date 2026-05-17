@@ -41,6 +41,7 @@ body {
   max-width: 64em;
   width: 100%;
   font-family: sans-serif;
+  line-height: 1.8em;
 }
 header, footer {
   text-align: center;
